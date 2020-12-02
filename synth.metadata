@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "git@github.com:googleapis/nodejs-managed-identities.git",
-        "sha": "9ba66879114ae668046dcd103008a212ac62a492"
+        "remote": "https://github.com/googleapis/nodejs-managed-identities.git",
+        "sha": "09a59a901ff9fc97b3e9accbd8434306fe8ed603"
       }
     },
     {
