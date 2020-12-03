@@ -1,5 +1,5 @@
 {
-  "name": "managedidentities",
+  "name": "@google-cloud/managed-identities",
   "version": "0.1.0",
   "description": "Managedidentities client for Node.js",
   "repository": "googleapis/nodejs-managedidentities",
@@ -34,7 +34,9 @@
     "lint": "gts check",
     "prepare": "npm run compile-protos && npm run compile",
     "system-test": "c8 mocha build/system-test",
-    "test": "c8 mocha build/test"
+    "test": "c8 mocha build/test",
+    "samples-test": "cd samples/ && npm link ../ && npm test",
+    "prelint": "cd samples; npm link ../; npm i"
   },
   "dependencies": {
     "google-gax": "^2.9.2"
