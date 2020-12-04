@@ -32,7 +32,7 @@ async function main(projectId) {
 
   //TODO(library generator): write the actual function you will be testing
   async function listDomains() {
-    const domains = await client.listDomains({parent: `projects/${project_id}/locations/global`});
+    const domains = await client.listDomains({parent: `projects/${projectId}/locations/global`});
     console.info(domains);
   }
   listDomains();
