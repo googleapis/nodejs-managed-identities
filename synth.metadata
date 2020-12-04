@@ -3,23 +3,23 @@
     {
       "git": {
         "name": ".",
-        "remote": "sso://user/sofialeon/nodejs-managed-identities",
-        "sha": "5d11e3adc7f658096f141980e5de8bd23480eaea"
+        "remote": "git@github.com:googleapis/nodejs-managed-identities.git",
+        "sha": "41216f2a3f75d8ec9c18074e0eef4df1c3122b05"
       }
     },
     {
       "git": {
         "name": "googleapis",
         "remote": "https://github.com/googleapis/googleapis.git",
-        "sha": "539f0d44c80ef331ae1a50d92d61b91e77d500dd",
-        "internalRef": "345358447"
+        "sha": "6bf92d7ceaf8841f77fe960163f5c607f4edc59a",
+        "internalRef": "345578804"
       }
     },
     {
       "git": {
         "name": "synthtool",
         "remote": "https://github.com/googleapis/synthtool.git",
-        "sha": "f94318521f63085b9ccb43d42af89f153fb39f15"
+        "sha": "18c5dbdb4ac8cf75d4d8174e7b4558f48e76f8a1"
       }
     }
   ],

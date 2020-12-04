@@ -62,23 +62,25 @@ npm install @google-cloud/managed-identities
 
 // remove this line after package is released
 // eslint-disable-next-line node/no-missing-require
-const {ManagedIdentitiesServiceClient} = require('@google-cloud/managed-identities');
+const {
+  ManagedIdentitiesServiceClient,
+} = require('@google-cloud/managed-identities');
 
 // TODO(developer): replace with your prefered project ID.
 // const projectId = 'my-project'
 
 // Creates a client
 // eslint-disable-next-line no-unused-vars
-const client = new {ManagedIdentitiesServiceClient}();
+const client = new ManagedIdentitiesServiceClient();
 
 //TODO(library generator): write the actual function you will be testing
-async function doSomething() {
- console.log('Developer! Change this code so that it shows how to use the library! See comments below on structure.')
- // const [thing] = await client.methodName({
- // });
- // console.info(thing);
+async function listDomains() {
+  const domains = await client.listDomains({
+    parent: `projects/${projectId}/locations/global`,
+  });
+  console.info(domains);
 }
-doSomething();
+listDomains();
 
 ```
 
