@@ -4,7 +4,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/nodejs-managed-identities.git",
-        "sha": "09a59a901ff9fc97b3e9accbd8434306fe8ed603"
+        "sha": "6663152935a526e820f0d3c302a1820d591e822d"
       }
     },
     {
