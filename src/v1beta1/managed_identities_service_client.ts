@@ -466,6 +466,10 @@ export class ManagedIdentitiesServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.resetAdminPassword(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.reset_admin_password.js</caption>
+   * region_tag:managedidentities_reset_admin_password_sample
+   *
    */
   resetAdminPassword(
     request?: protos.google.cloud.managedidentities.v1beta1.IResetAdminPasswordRequest,
@@ -564,6 +568,10 @@ export class ManagedIdentitiesServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getDomain(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.get_domain.js</caption>
+   * region_tag:managedidentities_get_domain_sample
+   *
    */
   getDomain(
     request?: protos.google.cloud.managedidentities.v1beta1.IGetDomainRequest,
@@ -681,6 +689,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.createMicrosoftAdDomain(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.create_microsoft_ad_domain.js</caption>
+   * region_tag:managedidentities_create_microsoft_ad_domain_sample
+   *
    */
   createMicrosoftAdDomain(
     request?: protos.google.cloud.managedidentities.v1beta1.ICreateMicrosoftAdDomainRequest,
@@ -748,6 +760,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.create_microsoft_ad_domain.js</caption>
+   * region_tag:managedidentities_create_microsoft_ad_domain_sample
+   *
    */
   async checkCreateMicrosoftAdDomainProgress(
     name: string
@@ -834,6 +850,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.updateDomain(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.update_domain.js</caption>
+   * region_tag:managedidentities_update_domain_sample
+   *
    */
   updateDomain(
     request?: protos.google.cloud.managedidentities.v1beta1.IUpdateDomainRequest,
@@ -897,6 +917,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.update_domain.js</caption>
+   * region_tag:managedidentities_update_domain_sample
+   *
    */
   async checkUpdateDomainProgress(
     name: string
@@ -976,6 +1000,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.deleteDomain(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.delete_domain.js</caption>
+   * region_tag:managedidentities_delete_domain_sample
+   *
    */
   deleteDomain(
     request?: protos.google.cloud.managedidentities.v1beta1.IDeleteDomainRequest,
@@ -1039,6 +1067,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.delete_domain.js</caption>
+   * region_tag:managedidentities_delete_domain_sample
+   *
    */
   async checkDeleteDomainProgress(
     name: string
@@ -1120,6 +1152,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.attachTrust(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.attach_trust.js</caption>
+   * region_tag:managedidentities_attach_trust_sample
+   *
    */
   attachTrust(
     request?: protos.google.cloud.managedidentities.v1beta1.IAttachTrustRequest,
@@ -1183,6 +1219,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.attach_trust.js</caption>
+   * region_tag:managedidentities_attach_trust_sample
+   *
    */
   async checkAttachTrustProgress(
     name: string
@@ -1268,6 +1308,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.reconfigureTrust(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.reconfigure_trust.js</caption>
+   * region_tag:managedidentities_reconfigure_trust_sample
+   *
    */
   reconfigureTrust(
     request?: protos.google.cloud.managedidentities.v1beta1.IReconfigureTrustRequest,
@@ -1331,6 +1375,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.reconfigure_trust.js</caption>
+   * region_tag:managedidentities_reconfigure_trust_sample
+   *
    */
   async checkReconfigureTrustProgress(
     name: string
@@ -1412,6 +1460,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.detachTrust(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.detach_trust.js</caption>
+   * region_tag:managedidentities_detach_trust_sample
+   *
    */
   detachTrust(
     request?: protos.google.cloud.managedidentities.v1beta1.IDetachTrustRequest,
@@ -1475,6 +1527,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.detach_trust.js</caption>
+   * region_tag:managedidentities_detach_trust_sample
+   *
    */
   async checkDetachTrustProgress(
     name: string
@@ -1557,6 +1613,10 @@ export class ManagedIdentitiesServiceClient {
    * @example
    * const [operation] = await client.validateTrust(request);
    * const [response] = await operation.promise();
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.validate_trust.js</caption>
+   * region_tag:managedidentities_validate_trust_sample
+   *
    */
   validateTrust(
     request?: protos.google.cloud.managedidentities.v1beta1.IValidateTrustRequest,
@@ -1620,6 +1680,10 @@ export class ManagedIdentitiesServiceClient {
    * console.log(decodedOperation.result);
    * console.log(decodedOperation.done);
    * console.log(decodedOperation.metadata);
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.validate_trust.js</caption>
+   * region_tag:managedidentities_validate_trust_sample
+   *
    */
   async checkValidateTrustProgress(
     name: string
@@ -1712,6 +1776,10 @@ export class ManagedIdentitiesServiceClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.list_domains.js</caption>
+   * region_tag:managedidentities_list_domains_sample
+   *
    */
   listDomains(
     request?: protos.google.cloud.managedidentities.v1beta1.IListDomainsRequest,
@@ -1793,6 +1861,10 @@ export class ManagedIdentitiesServiceClient {
    *   Please see the
    *   [documentation](https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#auto-pagination)
    *   for more details and examples.
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.list_domains.js</caption>
+   * region_tag:managedidentities_list_domains_sample
+   *
    */
   listDomainsStream(
     request?: protos.google.cloud.managedidentities.v1beta1.IListDomainsRequest,
@@ -1806,7 +1878,8 @@ export class ManagedIdentitiesServiceClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listDomains'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listDomains.createStream(
       this.innerApiCalls.listDomains as gax.GaxCall,
@@ -1857,6 +1930,10 @@ export class ManagedIdentitiesServiceClient {
    * for await (const response of iterable) {
    *   // process response
    * }
+   *
+   * @example <caption>include:samples/generated/v1beta1/managed_identities_service.list_domains.js</caption>
+   * region_tag:managedidentities_list_domains_sample
+   *
    */
   listDomainsAsync(
     request?: protos.google.cloud.managedidentities.v1beta1.IListDomainsRequest,
@@ -1871,7 +1948,8 @@ export class ManagedIdentitiesServiceClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listDomains'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listDomains.asyncIterate(
       this.innerApiCalls['listDomains'] as GaxCall,
