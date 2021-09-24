@@ -1806,7 +1806,8 @@ export class ManagedIdentitiesServiceClient {
       gax.routingHeader.fromParams({
         parent: request.parent || '',
       });
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listDomains'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listDomains.createStream(
       this.innerApiCalls.listDomains as gax.GaxCall,
@@ -1871,7 +1872,8 @@ export class ManagedIdentitiesServiceClient {
         parent: request.parent || '',
       });
     options = options || {};
-    const callSettings = new gax.CallSettings(options);
+    const defaultCallSettings = this._defaults['listDomains'];
+    const callSettings = defaultCallSettings.merge(options);
     this.initialize();
     return this.descriptors.page.listDomains.asyncIterate(
       this.innerApiCalls['listDomains'] as GaxCall,
