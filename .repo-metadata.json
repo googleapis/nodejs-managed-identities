@@ -12,5 +12,5 @@
   "name": "managedidentities",
   "issue_tracker": "https://github.com/googleapis/nodejs-managed-identities/issues",
   "api_shortname": "managedidentities",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
