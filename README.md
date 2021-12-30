@@ -4,7 +4,7 @@
 
 # [Managed Service for Microsoft Active Directory: Node.js Client](https://github.com/googleapis/nodejs-managed-identities)
 
-
+[![release level](https://img.shields.io/badge/release%20level-general%20availability%20%28GA%29-brightgreen.svg?style=flat)](https://cloud.google.com/terms/launch-stages)
 [![npm version](https://img.shields.io/npm/v/@google-cloud/managed-identities.svg)](https://www.npmjs.org/package/@google-cloud/managed-identities)
 [![codecov](https://img.shields.io/codecov/c/github/googleapis/nodejs-managed-identities/main.svg?style=flat)](https://codecov.io/gh/googleapis/nodejs-managed-identities)
 
