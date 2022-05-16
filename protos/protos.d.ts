@@ -190,70 +190,70 @@ export namespace google {
                 namespace ManagedIdentitiesService {
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|createMicrosoftAdDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#createMicrosoftAdDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateMicrosoftAdDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|resetAdminPassword}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#resetAdminPassword}.
                      * @param error Error, if any
                      * @param [response] ResetAdminPasswordResponse
                      */
                     type ResetAdminPasswordCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1.ResetAdminPasswordResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|listDomains}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#listDomains}.
                      * @param error Error, if any
                      * @param [response] ListDomainsResponse
                      */
                     type ListDomainsCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1.ListDomainsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|getDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#getDomain}.
                      * @param error Error, if any
                      * @param [response] Domain
                      */
                     type GetDomainCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1.Domain) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|updateDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#updateDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|deleteDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#deleteDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|attachTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#attachTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type AttachTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|reconfigureTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#reconfigureTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ReconfigureTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|detachTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#detachTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DetachTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService|validateTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1.ManagedIdentitiesService#validateTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -2061,70 +2061,70 @@ export namespace google {
                 namespace ManagedIdentitiesService {
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|createMicrosoftAdDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#createMicrosoftAdDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateMicrosoftAdDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|resetAdminPassword}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#resetAdminPassword}.
                      * @param error Error, if any
                      * @param [response] ResetAdminPasswordResponse
                      */
                     type ResetAdminPasswordCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1beta1.ResetAdminPasswordResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|listDomains}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#listDomains}.
                      * @param error Error, if any
                      * @param [response] ListDomainsResponse
                      */
                     type ListDomainsCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1beta1.ListDomainsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|getDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#getDomain}.
                      * @param error Error, if any
                      * @param [response] Domain
                      */
                     type GetDomainCallback = (error: (Error|null), response?: google.cloud.managedidentities.v1beta1.Domain) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|updateDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#updateDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|deleteDomain}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#deleteDomain}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteDomainCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|attachTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#attachTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type AttachTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|reconfigureTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#reconfigureTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ReconfigureTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|detachTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#detachTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DetachTrustCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService|validateTrust}.
+                     * Callback as used by {@link google.cloud.managedidentities.v1beta1.ManagedIdentitiesService#validateTrust}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -6214,9 +6214,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -6253,9 +6250,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -8058,35 +8052,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
